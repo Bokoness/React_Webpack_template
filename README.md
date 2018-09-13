@@ -115,7 +115,7 @@
             ]
         }
     }
-    ```
+```
 
 ### Setting up babel
 
