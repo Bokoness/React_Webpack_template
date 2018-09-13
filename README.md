@@ -4,17 +4,25 @@
 
 ### Develpoment Modules  (npm -i --save-dev)
 
-    * Webpack
+    ###### Webpack
+
         1. webpack
         2. webpack-dev-server  (a live server)
-    * Babel
+
+    ###### Babel
+
         1. babel-loader
         2. babel-core 
         3. babel-preset-react 
         4. babel-preset-env
 
+    ###### CSS loaders
+        
+        1. css-loader 
+        2. style-loader
+
 ### Production Modules (npm -i --save)
-    * ReactJS
+    ###### ReactJS
         1. react
         2. react-dom 
         3. react-router-dom
