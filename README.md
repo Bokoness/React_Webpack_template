@@ -57,7 +57,7 @@
         * resolve: adding default files extentions, so if there is a file without file extentions - it will use the default ones. 
 ### webpack.config.js
 
-```js
+```javascript
     const path = require('path'); //a defulat nodejs module that represent the current path
     const autoprefixer = require('autoprefixer');
 
@@ -122,7 +122,7 @@
     * create .babelrc file in root folder
 
 ```javascript
-    {
+{
     "presents": [
         ["env", { 
             "targets" : {
