@@ -37,6 +37,8 @@
 
     * in package.json file - add "start": "webpack-dev-server" to "script"
     * add webpack.config.js file and configure it
-        * all the code is written inside: ```module.exports = {}```
+        * all the code is written inside: ``` javascript
+            module.exports = {}
+        ```
         * __entry__ './src/index.js' the main js file
         * __resolve__ adding default files extentions, so if there is a file without file extentions - it will use the default ones. 
