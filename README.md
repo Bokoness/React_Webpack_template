@@ -117,22 +117,22 @@
     }
     ```
 
-    ### Setting up babel
+### Setting up babel
 
-        * create .babelrc file in root folder
+    * create .babelrc file in root folder
 
-    ```javascript
-        {
-        "presents": [
-            ["env", { 
-                "targets" : {
-                    "browsers": [ 
-                        "> 1%",
-                        "last 2 versions"
-                    ]
-                }
-            }], 
-            "react"
-        ]
-    }
+```javascript
+    {
+    "presents": [
+        ["env", { 
+            "targets" : {
+                "browsers": [ 
+                    "> 1%",
+                    "last 2 versions"
+                ]
+            }
+        }], 
+        "react"
+    ]
+}
 ```
