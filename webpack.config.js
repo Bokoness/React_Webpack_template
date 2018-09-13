@@ -7,7 +7,8 @@ module.exports = {
         path: '',
         filename: 'bundle.js',
         publicPath: path.resolve(__dirname, 'dist') //  
+    },
+    resolve: {
+        extentions: ['.js', '.jsx'] //adding default extentions 
     }
 }
-
-console.log(path.resolve(__dirname, 'dist'));
