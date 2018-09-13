@@ -50,7 +50,7 @@
 
     * create .babelrc file in root folder
 
-``` json
+```javascript
     {
     "presents": [
         ["env", { 
