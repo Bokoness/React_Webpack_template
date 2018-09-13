@@ -8,6 +8,7 @@
 
         1. webpack
         2. webpack-dev-server  (a live server)
+        3. webpack-cli
 
 ###### Babel
 
@@ -20,6 +21,7 @@
         
         1. css-loader 
         2. style-loader
+        3. postcss-loader
 
 ### Production Modules (npm -i --save)
 ###### ReactJS
